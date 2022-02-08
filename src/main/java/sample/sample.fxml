@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/fon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fBattle" fitHeight="180.0" fitWidth="309.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="805.0" AnchorPane.topAnchor="535.0">
+         <image>
+            <Image url="@../resources/fBattle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/tPanel.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="panelQuatersFinal" layoutY="-16.0" prefHeight="1096.0" prefWidth="1920.0" AnchorPane.leftAnchor="-1.0" AnchorPane.topAnchor="143.0">
+         <children>
+            <TextField fx:id="qfPlayer1BlueCommand1" editable="false" focusTraversable="false" layoutX="20.0" layoutY="20.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer2BlueCommand1" editable="false" focusTraversable="false" layoutX="20.0" layoutY="80.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer1RedCommand1" editable="false" focusTraversable="false" layoutX="20.0" layoutY="150.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer2RedCommand1" editable="false" focusTraversable="false" layoutX="20.0" layoutY="210.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer1BlueCommand2" editable="false" focusTraversable="false" layoutX="20.0" layoutY="408.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer2BlueCommand2" editable="false" focusTraversable="false" layoutX="20.0" layoutY="468.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer1RedCommand2" editable="false" focusTraversable="false" layoutX="20.0" layoutY="538.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+               <Font name="System Bold" size="25.0" />
+            </font>
+            </TextField>
+            <TextField fx:id="qfPlayer2RedCommand2" editable="false" focusTraversable="false" layoutX="20.0" layoutY="598.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="qfBattle1" fitHeight="401.0" fitWidth="66.0" layoutX="298.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/qfBattle1.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="qfPlayer1BlueCommand3" editable="false" focusTraversable="false" layoutY="20.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;" AnchorPane.rightAnchor="20.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer2BlueCommand3" editable="false" focusTraversable="false" layoutY="80.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;" AnchorPane.rightAnchor="20.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer1RedCommand3" editable="false" focusTraversable="false" layoutY="150.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;" AnchorPane.rightAnchor="20.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer2RedCommand3" editable="false" focusTraversable="false" layoutY="210.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;" AnchorPane.rightAnchor="20.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer1BlueCommand4" editable="false" focusTraversable="false" layoutY="408.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;" AnchorPane.rightAnchor="20.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer2BlueCommand4" editable="false" focusTraversable="false" layoutY="468.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;" AnchorPane.rightAnchor="20.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer1RedCommand4" editable="false" focusTraversable="false" layoutY="538.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;" AnchorPane.rightAnchor="20.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="qfPlayer2RedCommand4" editable="false" focusTraversable="false" layoutY="598.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;" AnchorPane.rightAnchor="20.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="qfBattle2" fitHeight="417.0" fitWidth="69.0" layoutX="1566.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="297.0" AnchorPane.topAnchor="131.0">
+               <image>
+                  <Image url="@../resources/qfBattle2.png" />
+               </image>
+            </ImageView>
+            <AnchorPane fx:id="panelPreFinal" layoutX="300.0" prefHeight="1080.0" prefWidth="1320.0">
+               <children>
+                  <TextField fx:id="pfPlayer1BlueCommand1" editable="false" focusTraversable="false" layoutX="110.0" layoutY="217.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;" AnchorPane.leftAnchor="60.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="pfPlayer2BlueCommand1" editable="false" focusTraversable="false" layoutX="110.0" layoutY="277.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;" AnchorPane.leftAnchor="60.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="pfPlayer1RedCommand1" editable="false" focusTraversable="false" layoutX="110.0" layoutY="347.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;" AnchorPane.leftAnchor="60.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="pfPlayer2RedCommand1" editable="false" focusTraversable="false" layoutX="110.0" layoutY="407.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;" AnchorPane.leftAnchor="60.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </TextField>
+                  <ImageView fx:id="pfBattle1" fitHeight="144.0" fitWidth="38.0" layoutX="338.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="339.0" AnchorPane.topAnchor="265.0">
+                     <image>
+                        <Image url="@../resources/pfBattle1.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="pfPlayer1BlueCommand2" editable="false" focusTraversable="false" layoutX="120.0" layoutY="217.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;" AnchorPane.rightAnchor="60.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="pfPlayer2BlueCommand2" editable="false" focusTraversable="false" layoutX="120.0" layoutY="277.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;" AnchorPane.rightAnchor="60.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="pfPlayer1RedCommand2" editable="false" focusTraversable="false" layoutX="120.0" layoutY="347.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;" AnchorPane.rightAnchor="60.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="pfPlayer2RedCommand2" editable="false" focusTraversable="false" layoutX="120.0" layoutY="407.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;" AnchorPane.rightAnchor="60.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </TextField>
+                  <ImageView fx:id="pfBattle2" fitHeight="144.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="339.0" AnchorPane.topAnchor="263.0">
+                     <image>
+                        <Image url="@../resources/pfBattle2.png" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane fx:id="panelFinal" layoutX="300.0" prefHeight="1080.0" prefWidth="720.0">
+                     <children>
+                        <TextField fx:id="fPlayer1BlueCommand1" editable="false" focusTraversable="false" layoutX="60.0" layoutY="280.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;" AnchorPane.leftAnchor="75.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="fPlayer2BlueCommand1" editable="false" focusTraversable="false" layoutX="60.0" layoutY="340.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #ff5959;" AnchorPane.leftAnchor="75.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="fPlayer1RedCommand2" editable="false" focusTraversable="false" layoutX="360.0" layoutY="279.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;" AnchorPane.rightAnchor="75.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="fPlayer2RedCommand2" editable="false" focusTraversable="false" layoutX="360.0" layoutY="339.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #13daf0;" AnchorPane.rightAnchor="75.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </TextField>
+                        <AnchorPane fx:id="panelWinner" prefHeight="510.0" prefWidth="720.0" AnchorPane.bottomAnchor="0.0">
+                           <children>
+                              <TextField fx:id="winnerP1" editable="false" focusTraversable="false" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #93f52a;" AnchorPane.leftAnchor="220.0">
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                                 <cursor>
+                                    <Cursor fx:constant="DEFAULT" />
+                                 </cursor>
+                                 <font>
+                                    <Font name="System Bold" size="25.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="winnerP2" editable="false" focusTraversable="false" layoutY="60.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-color: null; -fx-text-inner-color: #93f52a;" AnchorPane.leftAnchor="220.0">
+                                 <cursor>
+                                    <Cursor fx:constant="DEFAULT" />
+                                 </cursor>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                                 <font>
+                                    <Font name="System Bold" size="25.0" />
+                                 </font>
+                              </TextField>
+                           </children></AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <JFXButton fx:id="qfBlueGroup1" focusTraversable="false" layoutX="19.0" layoutY="16.0" prefHeight="117.0" prefWidth="281.0" ripplerFill="#08ceff00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="qfRedGroup1" focusTraversable="false" layoutX="17.0" layoutY="150.0" prefHeight="115.0" prefWidth="283.0" ripplerFill="#ff0d0d00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="qfBlueGroup2" focusTraversable="false" layoutX="17.0" layoutY="404.0" prefHeight="115.0" prefWidth="284.0" ripplerFill="#08ceff00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="qfRedGroup2" focusTraversable="false" layoutX="16.0" layoutY="538.0" prefHeight="114.0" prefWidth="283.0" ripplerFill="#ff0d0d" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="pfBlueGroup1" focusTraversable="false" layoutX="358.0" layoutY="211.0" prefHeight="114.0" prefWidth="281.0" ripplerFill="#0cccfc00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="pfRedGroup1" focusTraversable="false" layoutX="357.0" layoutY="345.0" prefHeight="114.0" prefWidth="282.0" ripplerFill="#ff0d0d00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="fBlueGroup" focusTraversable="false" layoutX="676.0" layoutY="278.0" prefHeight="114.0" prefWidth="283.0" ripplerFill="#0cccfc00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="fRedGroup" focusTraversable="false" layoutX="966.0" layoutY="277.0" prefHeight="114.0" prefWidth="280.0" ripplerFill="#ff0d0d00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="pfBlueGroup2" focusTraversable="false" layoutX="1280.0" layoutY="210.0" prefHeight="114.0" prefWidth="280.0" ripplerFill="#0cccfc00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="qfRedGroup4" focusTraversable="false" layoutX="1620.0" layoutY="538.0" prefHeight="114.0" prefWidth="280.0" ripplerFill="#ff0d0d00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" AnchorPane.leftAnchor="1619.0" />
+            <JFXButton fx:id="pfRedGroup2" focusTraversable="false" layoutX="1280.0" layoutY="342.0" prefHeight="114.0" prefWidth="280.0" ripplerFill="#ff0d0d00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="qfBlueGroup4" focusTraversable="false" layoutX="1620.0" layoutY="404.0" prefHeight="114.0" prefWidth="280.0" ripplerFill="#0cccfc00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <JFXButton fx:id="qfBlueGroup3" focusTraversable="false" layoutX="1620.0" layoutY="18.0" prefHeight="112.0" prefWidth="280.0" ripplerFill="#0cccfc00" textFill="TRANSPARENT" />
+            <JFXButton fx:id="qfRedGroup3" focusTraversable="false" layoutX="1620.0" layoutY="144.0" prefHeight="114.0" prefWidth="280.0" ripplerFill="#ff0d0d00" style="-fx-background-radius: 15;" textFill="TRANSPARENT" />
+            <Button fx:id="changeBlue1Group1qf" focusTraversable="false" layoutY="20.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue2Group1qf" focusTraversable="false" layoutY="79.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed1Group1qf" focusTraversable="false" layoutY="150.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed2Group1qf" focusTraversable="false" layoutY="210.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue1Group2qf" focusTraversable="false" layoutY="408.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue2Group2qf" focusTraversable="false" layoutY="468.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed1Group2qf" focusTraversable="false" layoutY="537.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed2Group2qf" focusTraversable="false" layoutY="598.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed2Group1pf" focusTraversable="false" layoutX="340.0" layoutY="407.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed1Group1pf" focusTraversable="false" layoutX="341.0" layoutY="347.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue2Group1pf" focusTraversable="false" layoutX="340.0" layoutY="277.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue1Group1pf" focusTraversable="false" layoutX="341.0" layoutY="217.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue1GroupF" focusTraversable="false" layoutX="656.0" layoutY="279.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue2GroupF" focusTraversable="false" layoutX="655.0" layoutY="340.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed2GroupF" focusTraversable="false" layoutX="1244.0" layoutY="339.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed1GroupF" focusTraversable="false" layoutX="1244.0" layoutY="279.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue2Group2pf" focusTraversable="false" layoutX="1559.0" layoutY="277.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue1Group2pf" focusTraversable="false" layoutX="1559.0" layoutY="217.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed1Group2pf" focusTraversable="false" layoutX="1559.0" layoutY="346.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed2Group2pf" focusTraversable="false" layoutX="1559.0" layoutY="406.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed2Group4qf" focusTraversable="false" layoutX="1899.0" layoutY="598.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed1Group4qf" focusTraversable="false" layoutX="1899.0" layoutY="538.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue2Group4qf" focusTraversable="false" layoutX="1899.0" layoutY="468.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue1Group4qf" focusTraversable="false" layoutX="1899.0" layoutY="408.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed2Group3qf" focusTraversable="false" layoutX="1899.0" layoutY="210.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeRed1Group3qf" focusTraversable="false" layoutX="1899.0" layoutY="150.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue2Group3qf" focusTraversable="false" layoutX="1899.0" layoutY="80.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBlue1Group3qf" focusTraversable="false" layoutX="1899.0" layoutY="20.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="21.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1322.0" layoutY="814.0" prefHeight="264.0" prefWidth="596.0">
+         <children>
+            <ImageView fx:id="redMark" fitHeight="41.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="500.0">
+               <image>
+                  <Image url="@../resources/checkMarkRed.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="greenMark" fitHeight="41.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="500.0">
+               <image>
+                  <Image url="@../resources/checkMarkGreen.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="nickFlied" prefHeight="44.0" prefWidth="501.0" promptText="Никнеймы" style="-fx-text-inner-color: #d0cdd4; -fx-background-color: null;" AnchorPane.bottomAnchor="53.0" AnchorPane.leftAnchor="13.0">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="eggButton" focusTraversable="false" layoutX="1613.0" layoutY="116.0" prefHeight="201.0" prefWidth="1033.0" ripplerFill="#fcfcfc" style="-fx-background-radius: 10;" textFill="TRANSPARENT" AnchorPane.rightAnchor="444.0" />
+      <Button fx:id="mixButton" mnemonicParsing="false" prefHeight="92.0" prefWidth="92.0" style="-fx-background-radius: 0; -fx-background-color: null;" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="1200.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

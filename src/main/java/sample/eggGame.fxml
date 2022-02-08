@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="480.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EggController">
+   <children>
+      <AnchorPane prefHeight="480.0" prefWidth="480.0">
+         <children>
+            <Line endX="480.0" endY="160.0" startY="160.0" strokeWidth="5.0" />
+            <Line endX="320.0" endY="480.0" startX="320.0" strokeWidth="5.0" />
+            <Line endX="160.0" endY="480.0" startX="160.0" strokeWidth="5.0" />
+            <Line endX="480.0" endY="320.0" startY="320.0" strokeWidth="5.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="480.0" prefWidth="480.0" fx:id="xPanel">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="xX1Y3">
+               <image>
+                  <Image url="@../resources/xMark.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="2.0" fx:id="xX2Y3">
+               <image>
+                  <Image url="@../resources/xMark.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="324.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="xX3Y3">
+               <image>
+                  <Image url="@../resources/xMark.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="325.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="xX3Y2">
+               <image>
+                  <Image url="@../resources/xMark.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="322.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="xX3Y1">
+               <image>
+                  <Image url="@../resources/xMark.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="161.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="xX2Y2">
+               <image>
+                  <Image url="@../resources/xMark.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="xX1Y2">
+               <image>
+                  <Image url="@../resources/xMark.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="2.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="xX1Y1">
+               <image>
+                  <Image url="@../resources/xMark.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="163.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="xX2Y1">
+               <image>
+                  <Image url="@../resources/xMark.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="oPanel" prefHeight="480.0" prefWidth="480.0">
+         <children>
+            <ImageView fx:id="oX1Y3" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resources/nullik.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="oX2Y3" fitHeight="150.0" fitWidth="200.0" layoutX="166.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resources/nullik.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="oX3Y3" fitHeight="150.0" fitWidth="200.0" layoutX="327.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resources/nullik.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="oX2Y2" fitHeight="150.0" fitWidth="200.0" layoutX="164.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resources/nullik.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="oX3Y2" fitHeight="150.0" fitWidth="200.0" layoutX="329.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resources/nullik.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="oX1Y2" fitHeight="150.0" fitWidth="200.0" layoutX="2.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resources/nullik.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="oX1Y1" fitHeight="150.0" fitWidth="200.0" layoutX="3.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resources/nullik.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="oX2Y1" fitHeight="150.0" fitWidth="200.0" layoutX="166.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resources/nullik.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="oX3Y1" fitHeight="150.0" fitWidth="200.0" layoutX="329.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resources/nullik.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="485.0" prefWidth="483.0">
+         <children>
+            <Button fx:id="bX1Y3" focusTraversable="false" layoutX="-3.0" layoutY="-2.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="164.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="bX2Y3" focusTraversable="false" layoutX="162.0" mnemonicParsing="false" prefHeight="158.0" prefWidth="158.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="bX3Y3" focusTraversable="false" layoutX="324.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="158.0" prefWidth="158.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="bX3Y2" focusTraversable="false" layoutX="322.0" layoutY="161.0" mnemonicParsing="false" prefHeight="158.0" prefWidth="158.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="bX2Y2" focusTraversable="false" layoutX="162.0" layoutY="161.0" mnemonicParsing="false" prefHeight="158.0" prefWidth="158.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="bX1Y2" focusTraversable="false" layoutX="1.0" layoutY="161.0" mnemonicParsing="false" prefHeight="158.0" prefWidth="158.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="bX1Y1" focusTraversable="false" layoutY="323.0" mnemonicParsing="false" prefHeight="158.0" prefWidth="158.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="bX2Y1" focusTraversable="false" layoutX="162.0" layoutY="323.0" mnemonicParsing="false" prefHeight="158.0" prefWidth="158.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="bX3Y1" focusTraversable="false" layoutX="322.0" layoutY="323.0" mnemonicParsing="false" prefHeight="158.0" prefWidth="158.0" style="-fx-background-color: null;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pWIN" prefHeight="240.0" prefWidth="336.0" style="-fx-background-color: #7ffc03; -fx-background-radius: 25; -fx-opacity: 0.5;" visible="false" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="110.0">
+         <children>
+            <Text fill="#fc0909" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="You WIN!" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="70.0">
+               <font>
+                  <Font size="76.0" />
+               </font>
+            </Text>
+            <JFXButton fx:id="bWiN" prefHeight="240.0" prefWidth="336.0" ripplerFill="#bbf287" style="-fx-text-fill: null; -fx-background-radius: 25;" text=".">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pLOSE" layoutX="10.0" layoutY="10.0" prefHeight="240.0" prefWidth="336.0" style="-fx-background-color: #ffa51f; -fx-background-radius: 25; -fx-opacity: 0.5;" visible="false" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="110.0">
+         <children>
+            <Text fill="#0037ff" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="You LOSE!" AnchorPane.topAnchor="70.0">
+               <font>
+                  <Font size="76.0" />
+               </font>
+            </Text>
+            <JFXButton fx:id="bLOSE" prefHeight="240.0" prefWidth="336.0" ripplerFill="#f20606" style="-fx-text-fill: null; -fx-background-radius: 25;" text=".">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pDraw" layoutX="20.0" layoutY="20.0" prefHeight="240.0" prefWidth="336.0" style="-fx-background-color: #8000ff; -fx-background-radius: 25; -fx-opacity: 0.5;" visible="false" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="110.0">
+         <children>
+            <Text fill="WHITE" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="DRAW" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="70.0">
+               <font>
+                  <Font size="76.0" />
+               </font>
+            </Text>
+            <JFXButton fx:id="bDraw" prefHeight="240.0" prefWidth="336.0" ripplerFill="#ff9ced" style="-fx-text-fill: null; -fx-background-radius: 25;" text=".">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

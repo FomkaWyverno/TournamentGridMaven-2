@@ -1,0 +1,80 @@
+    @FXML
+    private Button changeBlue2Group1qf;
+
+    @FXML
+    private Button changeRed1Group1qf;
+
+    @FXML
+    private Button changeRed2Group1qf;
+
+    @FXML
+    private Button changeBlue1Group2qf;
+
+    @FXML
+    private Button changeBlue2Group2qf;
+
+    @FXML
+    private Button changeRed1Group2qf;
+
+    @FXML
+    private Button changeRed2Group2qf;
+
+    @FXML
+    private Button changeRed2Group1pf;
+
+    @FXML
+    private Button changeRed1Group1pf;
+
+    @FXML
+    private Button changeBlue2Group1pf;
+
+    @FXML
+    private Button changeBlue1Group1pf;
+
+    @FXML
+    private Button changeBlue1GroupF;
+
+    @FXML
+    private Button changeBlue2GroupF;
+
+    @FXML
+    private Button changeRed2GroupF;
+
+    @FXML
+    private Button changeRed1GroupF;
+
+    @FXML
+    private Button changeBlue2Group2pf;
+
+    @FXML
+    private Button changeBlue1Group2pf;
+
+    @FXML
+    private Button changeRed1Group2pf;
+
+    @FXML
+    private Button changeRed2Group2pf;
+
+    @FXML
+    private Button changeRed2Group4qf;
+
+    @FXML
+    private Button changeRed1Group4qf;
+
+    @FXML
+    private Button changeBlue2Group4qf;
+
+    @FXML
+    private Button changeBlue1Group4qf;
+
+    @FXML
+    private Button changeRed2Group3qf;
+
+    @FXML
+    private Button changeRed1Group3qf;
+
+    @FXML
+    private Button changeBlue2Group3qf;
+
+    @FXML
+    private Button changeBlue1Group3qf;
